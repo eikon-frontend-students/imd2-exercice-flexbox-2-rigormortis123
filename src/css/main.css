@@ -58,20 +58,14 @@ body {
 }
 
 .section-4 {
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 15px 30px;
+  justify-content: center;
 }
 
-.section-4 .top .box,
-.section-4 .bottom .box {
-  width: 100%;
-}
-
-.top,
-.bottom {
-  display: flex;
-  gap: 30px;
+.section-4 .box {
+  width: 48%;
 }
 
 .section-5 {
